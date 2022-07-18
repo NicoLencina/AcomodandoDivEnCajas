@@ -1,0 +1,38 @@
+body {
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: rgb(204, 133, 133);
+}
+h1 {
+  text-align: center;
+}
+div {
+  border: black 3px solid;
+  padding: 2%;
+  text-align: center;
+  margin-top: 20px;
+}
+#div1 {
+  background-color: red;
+  width: 70%;
+  height: 30%;
+  display: inline-block;
+}
+#div2 {
+  background-color: blue;
+  width: 20%;
+  height: 60%;
+  float: right;
+}
+#div3 {
+  background-color: green;
+  width: 70%;
+  height: 27%;
+  float: left;
+}
+#div4 {
+  background-color: rgb(255, 0, 191);
+}
+#div5 {
+  background-color: gray;
+}
