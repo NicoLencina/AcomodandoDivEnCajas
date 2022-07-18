@@ -22,13 +22,12 @@ div {
   background-color: blue;
   width: 20%;
   height: 60%;
-  float: right;
+  position: right;
 }
 #div3 {
   background-color: green;
-  width: 70%;
+  width: 50%;
   height: 27%;
-  float: left;
 }
 #div4 {
   background-color: rgb(255, 0, 191);
