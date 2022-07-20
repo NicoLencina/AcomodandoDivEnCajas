@@ -1,33 +1,65 @@
 body {
   font-size: 20px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  background-color: rgb(204, 133, 133);
-}
-h1 {
-  text-align: center;
+  background-color: rgb(90, 84, 84);
 }
 div {
   border: black 3px solid;
-  padding: 2%;
-  text-align: center;
-  margin-top: 20px;
+  /*le permito a todos los div ser float*/
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  border-radius: 6px;
+}
+.cajaPrincipal {
+  height: 100vh;
+  width: 100vw;
+  padding: 6%;
+  margin: 20%;
+}
+#encabezado {
+  background-color: rgb(158, 170, 182);
+  height: 20vh;
+  width: 96vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.izquierda {
+  height: 2vh;
+  width: 30vw;
+  align-self: flex-start;
+  flex-direction: column;
+}
+.derecha {
+  height: 4vh;
+  width: 60vw;
+  align-self: flex-end;
+  flex-direction: column;
+}
+h1 {
+  font-size: 100%;
+  align-self: flex-start;
+  display: inline-block;
 }
 #div1 {
   background-color: red;
-  width: 70%;
-  height: 30%;
-  display: inline-block;
+  width: 30%;
+  height: 70%;
 }
 #div2 {
   background-color: blue;
-  width: 20%;
-  height: 60%;
+  width: 30%;
+  height: 70%;
   position: right;
 }
 #div3 {
   background-color: green;
-  width: 50%;
-  height: 27%;
+  width: 30%;
+  height: 70%;
+}
+.centrca {
+  flex-direction: row;
 }
 #div4 {
   background-color: rgb(255, 0, 191);
