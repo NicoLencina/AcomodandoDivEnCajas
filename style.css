@@ -9,31 +9,42 @@ div {
   text-align: center;
   border-radius: 6px;
 }
-.cajaPrincipal {
-  height: 100vh;
-  width: 100vw;
-  padding: 6%;
-  margin: 20%;
+#inicio {
+  height: 30vh;
+  width: 90vw;
 }
-#encabezado {
-  background-color: rgb(158, 170, 182);
-  height: 20vh;
-  width: 96vw;
+.encabezado,
+.derechaEncabezado {
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  display: inline-block;
+  text-align: center;
 }
-.izquierda {
-  height: 2vh;
-  width: 30vw;
+.encabezado {
+  border: 0px;
+  width: 60vw;
+  height: 10vh;
   align-self: flex-start;
-  flex-direction: row;
 }
-.derecha {
-  height: 4vh;
+.derechaEncabezado {
+  width: 20vw;
+  height: 10vh;
+}
+.logo,
+.derechaLogo {
+  flex-direction: column;
+  display: flex;
+  display: inline-block;
+}
+.logo {
+  height: 10vh;
+  width: 10vw;
+  align-self: flex-start;
+  border-radius: 50%;
+}
+.derechaLogo {
+  height: 10vh;
   width: 60vw;
   align-self: flex-end;
-  flex-direction: column;
 }
 h1 {
   font-size: 100%;
