@@ -1,3 +1,8 @@
+* {
+  margin-top: 6px;
+  padding-top: 6px;
+  text-align: center;
+}
 body {
   font-size: 20px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -5,18 +10,15 @@ body {
 }
 div {
   border: black 3px solid;
-  /*le permito a todos los div ser float*/
-  text-align: center;
   border-radius: 6px;
 }
 #inicio {
   height: 30vh;
-  width: 90vw;
+  width: 94vw;
 }
 .encabezado,
 .derechaEncabezado {
   display: flex;
-  display: inline-block;
   flex-direction: row;
   justify-content: space-around;
 }
@@ -24,28 +26,31 @@ div {
   border: 0px;
   width: 60vw;
   height: 10vh;
+  display: inline-block;
   align-self: flex-start;
 }
 .derechaEncabezado {
   width: 20vw;
   height: 10vh;
+  float: right;
 }
 .logo,
 .derechaLogo {
-  flex-direction: column;
   display: flex;
-  display: inline-block;
+  justify-content: space-around;
 }
 .logo {
   height: 10vh;
   width: 10vw;
-  align-self: flex-start;
+  display: inline-block;
   border-radius: 50%;
 }
 .derechaLogo {
   height: 10vh;
   width: 60vw;
+  display: flex;
   align-self: flex-end;
+  float: right;
 }
 
 #div1 {
@@ -67,7 +72,7 @@ div {
 }
 #div4 {
   background-color: rgb(255, 0, 191);
-  width: 60vw;
+  width: 62vw;
   height: 35vh;
 }
 #div5 {
