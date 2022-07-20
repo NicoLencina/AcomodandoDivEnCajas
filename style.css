@@ -6,9 +6,7 @@ body {
 div {
   border: black 3px solid;
   /*le permito a todos los div ser float*/
-  text-align: start;
-  display: flex;
-  flex-direction: column;
+  text-align: center;
   border-radius: 6px;
 }
 .cajaPrincipal {
@@ -29,7 +27,7 @@ div {
   height: 2vh;
   width: 30vw;
   align-self: flex-start;
-  flex-direction: column;
+  flex-direction: row;
 }
 .derecha {
   height: 4vh;
@@ -44,26 +42,32 @@ h1 {
 }
 #div1 {
   background-color: red;
-  width: 30%;
-  height: 70%;
 }
 #div2 {
   background-color: blue;
-  width: 30%;
-  height: 70%;
-  position: right;
 }
 #div3 {
   background-color: green;
-  width: 30%;
-  height: 70%;
 }
-.centrca {
+.primeraLinea {
+  display: flex;
+  display: inline-block;
   flex-direction: row;
+  justify-content: space-around;
+  width: 25vw;
+  height: 35vh;
 }
 #div4 {
   background-color: rgb(255, 0, 191);
+  width: 50vw;
+  height: 35vh;
 }
 #div5 {
   background-color: gray;
+  width: 25vw;
+  height: 35vh;
+}
+.segundaLinea {
+  display: flex;
+  display: inline-block;
 }
