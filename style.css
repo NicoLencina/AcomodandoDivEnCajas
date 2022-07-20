@@ -93,11 +93,13 @@ div {
 }
 #piePagina {
   background-color: deepskyblue;
+  height: 10vh;
+  width: 93vw;
 }
 #elemento {
   background-color: blue;
   display: flex;
   height: 5vh;
   width: 20vw;
-  justify-content: flex-end;
+  float: right;
 }
