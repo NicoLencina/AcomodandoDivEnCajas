@@ -1,18 +1,21 @@
-* {
-  margin-top: 6px;
-  padding-top: 6px;
-  text-align: center;
-}
 body {
   font-size: 20px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   background-color: rgb(90, 84, 84);
+  text-align: center;
 }
 div {
   border: black 3px solid;
   border-radius: 6px;
+  margin: 6px;
+}
+.restriccion {
+  border: 0px;
+  display: flex;
+  justify-content: space-between;
 }
 #inicio {
+  background-color: rgb(153, 153, 153);
   height: 30vh;
   width: 94vw;
 }
@@ -40,13 +43,13 @@ div {
   justify-content: space-around;
 }
 .logo {
-  height: 10vh;
+  height: 8vh;
   width: 10vw;
   display: inline-block;
-  border-radius: 50%;
+  border-radius: 10%;
 }
 .derechaLogo {
-  height: 10vh;
+  height: 8vh;
   width: 60vw;
   display: flex;
   align-self: flex-end;
