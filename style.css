@@ -9,19 +9,21 @@ div {
   border-radius: 6px;
   margin: 6px;
 }
-.restriccion {
+.encabezado,
+.contenedor,
+.piePagina {
   border: 0px;
   display: flex;
   justify-content: space-between;
 }
-#inicio {
+.encabezado {
   background-color: rgb(153, 153, 153);
   height: 30vh;
   width: 94vw;
   justify-content: space-around;
 }
-.encabezado,
-.derechaEncabezado {
+.fila1,
+.fila2 {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -102,4 +104,9 @@ div {
   height: 5vh;
   width: 20vw;
   float: right;
+}
+#cuadroPantalla {
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
 }

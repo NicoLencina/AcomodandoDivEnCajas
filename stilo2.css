@@ -1,0 +1,22 @@
+body {
+  background-color: rgb(95, 89, 89);
+  color: black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+div,
+p {
+  margin: 0px; /*le quito los margenes que me dan por defecto*/
+}
+
+.encabezado {
+  width: 97%; /*ancho pagina*/
+  height: 65px; /*alto del contenedor*/
+  background-color: rgb(192, 190, 190); /*color de fondo del div*/
+  border: 3px black solid; /*borde del div*/
+  border-radius: 10px; /*bordes redorndos*/
+  display: flex; /*activo el flex al div*/
+  flex-direction: column; /*le quito el row y coloco en columnas*/
+  justify-content: space-between; /*que el contenido se justifioque*/
+  padding: 1%; /*le doy una distancia de 1% al contenido y el vorde interno*/
+}
