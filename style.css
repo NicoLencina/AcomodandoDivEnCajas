@@ -21,7 +21,7 @@ div {
   border: 0px;
 }
 .encabezado {
-  background-color: rgb(223, 221, 221);
+  background-color: rgb(223, 221, 221, 0.5);
   height: 125px;
   width: 96vw;
 }
@@ -76,7 +76,6 @@ h1 {
   display: flex;
   display: inline-block;
   flex-direction: row;
-  justify-content: space-between;
   width: 27vw;
   height: 35vh;
 }
@@ -84,6 +83,8 @@ h1 {
   background-color: rgba(255, 140, 0, 0.74);
   border: 0px;
   width: 96vw;
+  display: flex;
+  justify-content: space-between;
 }
 #div4 {
   background-color: rgb(255, 0, 191);
@@ -100,11 +101,11 @@ h1 {
   display: inline-block;
 }
 .piePagina {
-  background-color: deepskyblue;
+  background-color: rgba(0, 191, 255, 0.568);
   height: 10vh;
   width: 96vw;
   display: flex;
-  justify-content: flex-end;
+  justify-content: right;
 }
 #elemento {
   background-color: blue;
