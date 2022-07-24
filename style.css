@@ -4,6 +4,11 @@ body {
   background-color: rgb(90, 84, 84);
   text-align: center;
 }
+p {
+  margin: 0px;
+  display: flex;
+  align-items: center;
+}
 div {
   border: black 3px solid;
   border-radius: 6px;
@@ -11,35 +16,31 @@ div {
 }
 .encabezado,
 .contenedor,
-.piePagina {
+.piePagina,
+.nombrePagina {
+  border: 0px;
+}
+.encabezado {
+  background-color: rgb(223, 221, 221);
+  height: 125px;
+  width: 96vw;
+}
+h1 {
+  margin: 0px;
+}
+.fila1,
+.fila2 {
   border: 0px;
   display: flex;
   justify-content: space-between;
 }
-.encabezado {
-  background-color: rgb(153, 153, 153);
-  height: 30vh;
-  width: 94vw;
-  justify-content: space-around;
-}
-.fila1,
-.fila2 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-.encabezado {
-  border: 0px;
-  width: 60vw;
-  height: 10vh;
-  display: inline-block;
-  align-self: flex-start;
+.nombrePagina {
+  text-align: center;
 }
 .derechaEncabezado {
   width: 20vw;
-  height: 10vh;
+  height: 5vh;
   background-color: rgb(2, 78, 2);
-  float: right;
 }
 .logo,
 .derechaLogo {
@@ -48,13 +49,13 @@ div {
 }
 .logo {
   background-color: rgb(7, 7, 122);
-  height: 8vh;
+  height: 5vh;
   width: 10vw;
   display: inline-block;
   border-radius: 10%;
 }
 .derechaLogo {
-  height: 8vh;
+  height: 5vh;
   width: 60vw;
   background-color: rgb(82, 5, 5);
   display: flex;
@@ -76,12 +77,17 @@ div {
   display: inline-block;
   flex-direction: row;
   justify-content: space-between;
-  width: 30vw;
+  width: 27vw;
   height: 35vh;
+}
+.contenedor {
+  background-color: rgba(255, 140, 0, 0.74);
+  border: 0px;
+  width: 96vw;
 }
 #div4 {
   background-color: rgb(255, 0, 191);
-  width: 62vw;
+  width: 60vw;
   height: 35vh;
 }
 #div5 {
@@ -93,20 +99,15 @@ div {
   display: flex;
   display: inline-block;
 }
-#piePagina {
+.piePagina {
   background-color: deepskyblue;
   height: 10vh;
-  width: 93vw;
+  width: 96vw;
+  display: flex;
+  justify-content: flex-end;
 }
 #elemento {
   background-color: blue;
-  display: flex;
   height: 5vh;
   width: 20vw;
-  float: right;
-}
-#cuadroPantalla {
-  height: 100vh;
-  width: 100vw;
-  justify-content: center;
 }
