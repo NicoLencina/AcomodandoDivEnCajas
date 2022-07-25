@@ -4,14 +4,20 @@ body {
 }
 
 div,
-p {
+p,
+h1 {
   margin: 0px; /*le quito los margenes que me dan por defecto*/
 }
-
+p {
+  text-align: center;
+}
+h1 {
+  font-size: 120%;
+}
 .encabezado {
   width: 97%; /*ancho pagina*/
   height: 65px; /*alto del contenedor*/
-  background-color: rgb(192, 190, 190); /*color de fondo del div*/
+  background-color: rgb(228, 222, 222); /*color de fondo del div*/
   border: 3px black solid; /*borde del div*/
   border-radius: 10px; /*bordes redorndos*/
   display: flex; /*activo el flex al div*/
@@ -23,12 +29,12 @@ p {
 .fila1 {
   display: flex; /*activo el div flex*/
   justify-content: space-between; /*quiero que el contenido se centre y ocupe las esquinas ya que estan pegados*/
-  align-items: flex-start;
-  align-content: space-around;
 }
+
 .nombrePagina {
   padding: 0.5%;
   width: 20%;
+  font-size: 10px;
   text-align: center;
 }
 .derechaEncabezado {
@@ -36,7 +42,7 @@ p {
   padding: 0.5%;
   width: 40%;
   color: white;
-  background-color: rgb(1, 153, 52);
+  background-color: rgb(4, 179, 62);
   border: 1px solid black;
 }
 
@@ -51,7 +57,7 @@ p {
   padding: 0.5%;
   width: 20%;
   color: white;
-  background-color: rgb(0, 52, 102);
+  background-color: rgb(3, 68, 128);
   border: 1px solid black;
 }
 
@@ -60,6 +66,13 @@ p {
   padding: 0.5%;
   width: 60%;
   color: white;
-  background-color: rgb(102, 0, 0);
+  background-color: rgb(126, 7, 7);
   border: 1px solid black;
+}
+.contenedor {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 2px;
+  margin-bottom: 10px;
 }
